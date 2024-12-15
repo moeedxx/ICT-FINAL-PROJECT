@@ -243,14 +243,13 @@ nav a:hover {
 }
 
 .testimonial-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
 }
 
 .testimonial-card {
-    width: 30%;
+    width: 100%;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ddd;
